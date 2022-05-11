@@ -14,7 +14,7 @@ async function loadData() {
     const dog = await getDog(id);
     // render and append this dog's details to the container
     dogDetailContainer.append(renderDogDetail(dog));
-    console.log(getDog);
+    //console.log(getDog);
 }
 
 loadData();

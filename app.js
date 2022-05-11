@@ -23,4 +23,4 @@ async function loadData() {
 
 //loads data to home page
 loadData();
-getDog();
+//getDog();
