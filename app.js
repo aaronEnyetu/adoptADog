@@ -1,4 +1,4 @@
-import { getDogs } from './fetch-utils.js';
+import { getDog, getDogs } from './fetch-utils.js';
 import { renderDogCard } from './render-utils.js';
 
 const dogListContainer = document.getElementById('dog-list-container');
@@ -8,7 +8,7 @@ async function loadData() {
 
 
     const dogs = await getDogs();
-    console.log(dogs);
+    //console.log(dogs);
 
 
 // on load
@@ -23,3 +23,4 @@ async function loadData() {
 
 //loads data to home page
 loadData();
+getDog();
